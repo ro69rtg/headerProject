@@ -1,0 +1,9 @@
+@import '_resetCSS.scss';
+
+// Blocks
+@import './blocks/_header.scss';
+
+@import url('https://fonts.cdnfonts.com/css/open-sans');
+body{
+font-family: 'Open Sans';
+}
