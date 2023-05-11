@@ -88,6 +88,16 @@
 				width:136px;
 				height:24px;
 				margin-top:5px;
+				&:hover{
+					cursor:pointer;
+				}
+			}
+		}
+		&__block{
+			padding:0 14px 0 16px;
+			&:hover{
+				cursor:pointer;
+				background:rgba(29,29,27,.04);
 			}
 		}
 		&__search{
@@ -119,7 +129,6 @@
 			}
 		}
 		&__favorites{
-			width: 182px;
 			height: 48px;
 			background-color:rgba(29, 29, 27, .04);
 			border-radius: 3px;
@@ -129,13 +138,12 @@
 			&-heart{
 				width:24px;
 				height:20px;
-				margin-left:16px;
 			}
 			&-text{
 				font-weight: 600;
 				font-size: 14px;
 				color: #1D1D1B;
-				margin-left:15px;
+				margin:0 15px 0 15px;
 			}
 			&-count{
 				width: 17px;
@@ -145,7 +153,6 @@
 				display:flex;
 				justify-content:center;
 				align-items:center;
-				margin-left:15px;
 				margin-top:-5px;
 				&--text{
 				font-weight: 600;
@@ -160,7 +167,7 @@
 		&__scales{
 			display:flex;
 			align-items:center;
-			margin-left:16px;
+			margin-left:2px;
 			&-img{
 				width:27px;
 				height:24px;
@@ -176,7 +183,7 @@
 		&__cart{
 			display:flex;
 			align-items:center;
-			margin-left:35px;
+			margin-left:4px;
 			&-img{
 				width:24px;
 				height:24px;
@@ -185,7 +192,7 @@
 				font-weight: 600;
 				font-size: 14px;
 				color: #1D1D1B;
-				margin-left:13px;
+				margin:0 11px 0 14px;
 			}
 		}
 
@@ -229,13 +236,27 @@
 			display:flex;
 			align-items:center;
 			height:100%;
-			background-color:rgba(29, 29, 27, .04);
-			&:last-child(){
+			background-color:rgba(29, 29, 27, .02);
+			&:first-child .header-bottom__block-plate{
+				margin-left:26px;
+			}
+			&:last-child{
 				padding-right:30px;
 			}
 			&-plate{
-				margin-left:30px;
+				margin-left:32px;
 				display:flex;
+				position:relative;
+				&:after{
+					content:"";
+					position:absolute;
+					width:1px;
+					height:32px;
+					left:-23px;
+					top:-8px;
+					background:rgba(29, 29, 27, .04);
+					display:none;
+				}
 				&:hover .header-bottom__block-img {
 					fill:red;
 					fill-rule:red;
@@ -247,6 +268,9 @@
 				&:hover .header-bottom__block-text{
 					color:red;
 					cursor:pointer;
+				}
+				&:hover.header-bottom__block-plate:after{
+					display:block;
 				}
 			}
 			&-row{
@@ -262,6 +286,7 @@
 				font-weight: 400;
 				font-size: 14px;
 				color: #1D1D1B;
+				margin-top:1px;
 				transition:all 0.2s ease;
 			}
 		}
