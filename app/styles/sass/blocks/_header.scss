@@ -88,7 +88,6 @@
 				width:136px;
 				height:24px;
 				margin-top:5px;
-<<<<<<< HEAD
 				&:hover{
 					cursor:pointer;
 				}
@@ -99,8 +98,6 @@
 			&:hover{
 				cursor:pointer;
 				background:rgba(29,29,27,.04);
-=======
->>>>>>> 56568e54f3307b93367b0fbd219f9b0f06fff713
 			}
 		}
 		&__search{
@@ -132,10 +129,7 @@
 			}
 		}
 		&__favorites{
-<<<<<<< HEAD
-=======
 			width: 182px;
->>>>>>> 56568e54f3307b93367b0fbd219f9b0f06fff713
 			height: 48px;
 			background-color:rgba(29, 29, 27, .04);
 			border-radius: 3px;
@@ -145,20 +139,14 @@
 			&-heart{
 				width:24px;
 				height:20px;
-<<<<<<< HEAD
-=======
 				margin-left:16px;
->>>>>>> 56568e54f3307b93367b0fbd219f9b0f06fff713
 			}
 			&-text{
 				font-weight: 600;
 				font-size: 14px;
 				color: #1D1D1B;
-<<<<<<< HEAD
 				margin:0 15px 0 15px;
-=======
 				margin-left:15px;
->>>>>>> 56568e54f3307b93367b0fbd219f9b0f06fff713
 			}
 			&-count{
 				width: 17px;
@@ -168,10 +156,7 @@
 				display:flex;
 				justify-content:center;
 				align-items:center;
-<<<<<<< HEAD
-=======
 				margin-left:15px;
->>>>>>> 56568e54f3307b93367b0fbd219f9b0f06fff713
 				margin-top:-5px;
 				&--text{
 				font-weight: 600;
@@ -186,11 +171,8 @@
 		&__scales{
 			display:flex;
 			align-items:center;
-<<<<<<< HEAD
 			margin-left:2px;
-=======
 			margin-left:16px;
->>>>>>> 56568e54f3307b93367b0fbd219f9b0f06fff713
 			&-img{
 				width:27px;
 				height:24px;
@@ -206,11 +188,8 @@
 		&__cart{
 			display:flex;
 			align-items:center;
-<<<<<<< HEAD
 			margin-left:4px;
-=======
 			margin-left:35px;
->>>>>>> 56568e54f3307b93367b0fbd219f9b0f06fff713
 			&-img{
 				width:24px;
 				height:24px;
@@ -219,11 +198,8 @@
 				font-weight: 600;
 				font-size: 14px;
 				color: #1D1D1B;
-<<<<<<< HEAD
 				margin:0 11px 0 14px;
-=======
 				margin-left:13px;
->>>>>>> 56568e54f3307b93367b0fbd219f9b0f06fff713
 			}
 		}
 
@@ -267,7 +243,6 @@
 			display:flex;
 			align-items:center;
 			height:100%;
-<<<<<<< HEAD
 			background-color:rgba(29, 29, 27, .02);
 			&:first-child .header-bottom__block-plate{
 				margin-left:26px;
@@ -289,7 +264,6 @@
 					background:rgba(29, 29, 27, .04);
 					display:none;
 				}
-=======
 			background-color:rgba(29, 29, 27, .04);
 			&:last-child(){
 				padding-right:30px;
@@ -297,7 +271,6 @@
 			&-plate{
 				margin-left:30px;
 				display:flex;
->>>>>>> 56568e54f3307b93367b0fbd219f9b0f06fff713
 				&:hover .header-bottom__block-img {
 					fill:red;
 					fill-rule:red;
@@ -310,12 +283,9 @@
 					color:red;
 					cursor:pointer;
 				}
-<<<<<<< HEAD
 				&:hover.header-bottom__block-plate:after{
 					display:block;
 				}
-=======
->>>>>>> 56568e54f3307b93367b0fbd219f9b0f06fff713
 			}
 			&-row{
 				width:100%;
@@ -330,10 +300,7 @@
 				font-weight: 400;
 				font-size: 14px;
 				color: #1D1D1B;
-<<<<<<< HEAD
 				margin-top:1px;
-=======
->>>>>>> 56568e54f3307b93367b0fbd219f9b0f06fff713
 				transition:all 0.2s ease;
 			}
 		}
